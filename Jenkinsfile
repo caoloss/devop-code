@@ -5,7 +5,7 @@ pipeline {
   }
   environment {
     registry = "caolos/devop-pipeline"
-    registryCredential = 'dockerID'
+    registryCredential = 'DockerID'
   }
   stages {
     stage('Build'){
